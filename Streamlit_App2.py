@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title("AAPL Stock Price Predictor (Fixed Output)")
+st.title("AAPL Stock Price Predictor")
 
 fed_rate = st.slider("Federal Funds Rate (%)", 0.0, 10.0, 5.0, 0.25)
 sentiment = st.radio("Is the economic sentiment positive?", ["Yes", "No"])
