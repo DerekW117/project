@@ -5,7 +5,7 @@ import joblib
 import os
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(script_dir, "aapl_model.pkl")
+model_path = os.path.join(script_dir, "aapl_model_fixed.pkl")
 
 model = joblib.load(model_path)
 
